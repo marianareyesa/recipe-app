@@ -1,0 +1,72 @@
+/* styles/Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F2F7;
+    color: #FA360E;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 2px solid #FA360E; /* Border for the entire header */
+    height: 70px;
+    position: relative; /* Needed for absolute positioning of children */
+}
+
+.logo {
+    /* Square placeholder for the logo */
+    width: 70px; /* Equal width and height for a square */
+    height: 70px;
+    background-color: #F3F2F7; /* Same as header background */
+    border-right: 2px solid #FA360E; /* Right border only */
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding-left: 20px; /* Adjust padding to not overlap the square */
+}
+
+.nav span, .nav a {
+    color: #FA360E;
+    cursor: pointer;
+    text-decoration: none; /* Ensure this removes the underlines */
+    margin-right: 40px; /* Spacing between menu items */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400; /* Regular font weight */
+}
+
+.myCookie {
+    /* Styles for "my cookie" container */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px; /* Adds space between the circle and the text */
+    padding-right: 20px; /* Space from the right edge */
+    height: 70px; /* Same height as header */
+}
+
+.myCookie span {
+    /* Styles for the "my cookie" text */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400; /* Regular font weight */
+}
+
+.myCookie .circle {
+    /* Styles for the orange circle */
+    width: 24px; /* Example size */
+    height: 24px; /* Make it a square for a perfect circle */
+    border-radius: 50%; /* Round corners to make a circle */
+    background-color: #FA360E; /* Orange background */
+    /* Removed absolute positioning */
+}
+
+/* Re-add vertical line if needed */
+.verticalLine {
+    height: 70px; /* Same height as header */
+    width: 2px; /* Line thickness */
+    background-color: #FA360E; /* Line color */
+    margin: 0 20px; /* Margin to the right of the navigation links */
+}
+
