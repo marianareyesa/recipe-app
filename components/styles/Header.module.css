@@ -1,4 +1,6 @@
 /* styles/Header.module.css */
+@import url('@fontsource/source-sans-pro');
+
 .header {
     display: flex;
     justify-content: space-between;

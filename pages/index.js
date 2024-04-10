@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import Banner from '../components/Banner';
 export default function Home() {
     return (
         <>
@@ -9,10 +9,9 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            {/* No need to include <Header /> here since it's already in _app.js */}
+            <Banner /> {/* Include the Banner component */}
 
-            {/* Content of the homepage goes here.
-                 The rest of the page content is omitted for now. */}
+            {/* The rest of your homepage content goes here */}
         </>
     );
 }
