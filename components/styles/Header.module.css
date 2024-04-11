@@ -1,4 +1,6 @@
 /* styles/Header.module.css */
+@import url('@fontsource/source-sans-pro');
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -35,6 +37,7 @@
     margin-right: 40px; /* Spacing between menu items */
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400; /* Regular font weight */
+    font-size: 20px;
 }
 
 .myCookie {
@@ -51,6 +54,7 @@
     /* Styles for the "my cookie" text */
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400; /* Regular font weight */
+    font-size: 18px;
 }
 
 .myCookie .circle {
@@ -69,4 +73,23 @@
     background-color: #FA360E; /* Line color */
     margin: 0 20px; /* Margin to the right of the navigation links */
 }
+
+.logo {
+    width: 70px; /* Width of the square placeholder */
+    height: 70px; /* Height of the square placeholder */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9px; /* Adjust this padding to help center the logo if needed */
+    box-sizing: border-box; /* Ensures padding doesn't increase the size of the box */
+    background-color: #F3F2F7; /* Adjust the background color if needed */
+    border-right: 2px solid #FA360E; /* Right border for the placeholder */
+}
+
+.logo img {
+    max-width: 80%; /* Reducing the size to provide padding within the placeholder */
+    max-height: 80%; /* Reducing the size to provide padding within the placeholder */
+    object-fit: contain; /* This will ensure the logo is contained within its box */
+}
+
 

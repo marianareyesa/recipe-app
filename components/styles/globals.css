@@ -1,2 +1,13 @@
 /* globals.css file */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+body {
+    background-color: #F3F2F7; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset default margins for all elements to avoid unexpected spacing */
+* {
+    margin: 0;
+    padding: 0;
+    /* Add other reset styles if necessary */
+}

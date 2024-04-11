@@ -1,0 +1,53 @@
+@import url('@fontsource/roboto/300.css');
+@import url('@fontsource/roboto/400.css');
+@import url('@fontsource/fasthand');
+
+.banner {
+    padding-top: 25px; /* Adjust the padding as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 270px; /* You may need to adjust the height to account for the padding */
+    background-color: #F3F2F7;
+    text-align: center;
+}
+
+.cookie {
+    color: #F25939;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* This is typically for light, but ensure Roboto Flex supports it */
+    font-size: 128px;
+    margin-bottom: 0; /* Adjust this value to bring the tagline closer */
+}
+
+.tagline {
+    color: #FA360E;
+    font-family: 'Fasthand', serif !important; /* Name should match exactly */
+    font-weight: 400; /* Normal weight as per Google Fonts declaration */
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    /* No additional styling is needed for the font-weight */
+}
+
+.getStarted {
+    background: none;
+    border: 2px solid #F25939;
+    border-radius: 5px;
+    color: #F25939;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; /* Adjust the size as needed */
+    font-weight: 300; /* Normal weight for "get started" */
+}
+
+.getStarted:hover {
+    background-color: #F25939;
+    color: white;
+}
