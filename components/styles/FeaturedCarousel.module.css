@@ -1,0 +1,61 @@
+/* styles/FeaturedCarousel.module.css */
+.slide {
+    display: flex;
+    align-items: center; /* Centers items vertically in the container */
+    background-color: #F25939; /* Orange background */
+    width: 1440px;
+    height: 520px;
+    padding: 20px; /* Adds padding inside the slide */
+    box-sizing: border-box; /* Ensures padding doesn't add to the width */
+}
+
+.imageContainer {
+    display: inline-block; /* Allows you to apply padding and keep the image on the left */
+    width: 60%; /* Decrease the width to make the image smaller */
+    padding-left: 30px; /* Adds padding around the image */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+
+.slideImage {
+    padding-top: 35px;
+    width: 90%; /* Image will fill the container width */
+    height: auto; /* Height adjusts to maintain aspect ratio */
+    object-fit: cover; /* Adjusts the image size to cover the container */
+}
+
+.textContainer {
+    padding-right: 10px;
+    display: inline-block; /* Keeps the text to the right of the image */
+    vertical-align: top; /* Aligns the top of the text container with the top of the image container */
+    width: 34%; /* Adjusts for the width of the text container */
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: right; /* Align text to the left */
+}
+
+.title {
+    padding-top: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300; /* Roboto Light */
+    font-size: 96px;
+    color: #FFFFFF; /* Change color as needed */
+    margin: 0 0 20px 0; /* Adjust bottom margin as needed */
+}
+
+.description {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF; /* Change color as needed */
+    margin: 0; /* Resets default margins */
+    line-height: 1.5;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Add specific styles for your text, heading, paragraph etc. */
