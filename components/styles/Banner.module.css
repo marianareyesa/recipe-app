@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     height: 270px; /* You may need to adjust the height to account for the padding */
     background-color: #F3F2F7;
     text-align: center;
@@ -45,6 +45,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 18px; /* Adjust the size as needed */
     font-weight: 300; /* Normal weight for "get started" */
+    margin-bottom: 50px;
 }
 
 .getStarted:hover {
