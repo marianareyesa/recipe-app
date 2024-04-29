@@ -1,0 +1,35 @@
+@import url('@fontsource/source-sans-pro');
+
+
+.recipeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with a minimum width */
+  gap: 20px; /* Spacing between boxes */
+  margin: 20px;
+}
+
+/* Styles for each recipe box */
+.recipeItem {
+  background-color: #F25939; /* Main orange */
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Styles for images to ensure consistent sizing */
+.recipeItem img {
+  width: 100%; /* Make the image fill the box */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Crop the image to fit the box */
+  border-radius: 5px; /* Round the image corners */
+}
+
+/* Additional styles for text and layout */
+.recipeItem h2 {
+  margin: 10px 0;
+}
+
+.recipeItem p {
+  margin: 5px 0;
+}
